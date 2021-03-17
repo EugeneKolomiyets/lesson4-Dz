@@ -86,7 +86,7 @@ public class arr {
         for (int i = 0; i <arr4.length ; i++) {
             int max = arr4[arr4.length - 1];
             int maxId = arr4.length - 1;
-            for (int j = arr4.length-1; j > i; j--) {
+            for (int j = arr4.length-1; j >= i; j--) {
                 if (arr4[j] > max) {
                     max = arr4[j];
                     maxId=j;
